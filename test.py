@@ -1,10 +1,7 @@
-num = 1
-output_total = ""
-while True:
-    result = f"본문{num}"
-    output_total += result
-    num += 1
-    if num == 11:
-        break
+def sum_and_mul(a, b):
+    return a+b, a*b
 
-print(output_total)
+
+a, b = sum_and_mul(10, 20)
+print(a)
+print(b)
